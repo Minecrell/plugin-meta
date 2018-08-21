@@ -1,0 +1,16 @@
+{
+    "id": "testplugin",
+    "version": "1.0-SNAPSHOT",
+    "description": "This is a test plugin",
+    "author": "Minecrell",
+    "dependencies": [
+        {
+            "id": "optionaldependency",
+            "optional": true
+        },
+        {
+            "id": "requireddependency",
+            "optional": false
+        }
+    ]
+}
